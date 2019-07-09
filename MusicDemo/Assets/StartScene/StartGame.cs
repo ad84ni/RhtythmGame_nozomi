@@ -15,6 +15,15 @@ public class StartGame : MonoBehaviour
     {
         
     }
+    /*
+    IEnumerator test()
+    {
+        print("Before " + Time.time);
+        yield return new WaitForSeconds(3);    //注意等待时间的写法
+        print("After " + Time.time);
+    }
+    */
+
     public void OnStartGame(string sceneName)
     {
         Application.LoadLevel(sceneName);

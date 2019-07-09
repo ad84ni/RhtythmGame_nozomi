@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/StartScene/Start.unity
+- path: Assets/gameScene/Scenes/RhythmGame.unity
   isLoaded: 1
   isActive: 1
